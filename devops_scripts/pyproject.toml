@@ -1,0 +1,14 @@
+[project]
+name = "devops-scripts"
+version = "0.1.0"
+description = "Host scripts for practicing devops."
+readme = "README.md"
+authors = [
+    { name = "Brandon M Hunter", email = "brandonmichaelhunter@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.5.1",
+    "fire>=0.7.1",
+    "requests>=2.34.2",
+]
